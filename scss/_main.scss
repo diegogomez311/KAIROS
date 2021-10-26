@@ -1,41 +1,590 @@
 *{ 
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    box-sizing: border-box;        
 }
 
 
 /*--------------------------------------------------------------
-# 01 # HEADER
-
-# AA # NAV
-
-# BB # SLIDER 
-
+# GENERAL
 --------------------------------------------------------------*/
+
+.separador{
+    height: 80px;
+}
+.maps{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.navbar{    
+        .nav-link{
+            font-family: $Montserrat-Regular;          
+        }       
+
+
+    .social-links {
+        a {
+            font-size: 18px;
+            display: inline-block;
+            background: #8d8d8d;
+            color: #fff;
+            line-height: 1;
+            padding: 8px 0;
+            margin-right: 4px;
+            border-radius: 4px;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: $rojo;
+            color: $blanco;
+            text-decoration: none;
+        }
+        img{
+            width: 14px;
+            margin-bottom: 3px;
+        }
+    }
+}
+
+/*--------------------------------------------------------------
+# SLIDE
+-------------------------------------------------------------*/
+#slide{
+    margin-top: 70px;
+}
+/*--------------------------------------------------------------
+# 02 NOSOTROS
+--------------------------------------------------------------*/
+.nosotros{
+    
+    h2{
+        font-family: $Montserrat;
+        font-weight: 800;
+        color: $rojo;
+        text-align: center;
+        font-size: 2.6em; 
+    }
+    h3{
+        font-family: $Montserrat;
+        font-weight: 400;
+        color: $rojo;
+        text-align: center;
+        font-size: 1.6em;
+        line-height:20px;
+    }
+    h4{
+        font-family: $Montserrat;
+        font-weight: 700;
+        color: $negro;        
+        font-size: 1.4em;
+        line-height:26px;
+    }
+    p{
+        margin-top: 20px;
+        font-family: $Montserrat;
+        font-weight: 500;
+        color: $negro;        
+    }
+    
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            padding: 0 0 8px 26px;
+            position: relative;
+        }
+        i {
+            position: absolute;
+            font-size: 20px;
+            left: 0;
+            top: -3px;
+            color: #ffc451;
+        }
+    }
+
+} 
+
+.nosotros .content p:last-child {
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# SE PARTE DE KAIROS
+--------------------------------------------------------------*/
+#franquicias{
+
+    .btn-danger {
+        color: #fff;
+        background-color: $rojo;
+        border-color: #b02a37;      
+    }
+  
+    h2{
+        font-family: $Montserrat;
+        font-weight: 800;
+        color: $rojo;
+        text-align: center;
+        font-size: 2.6em;
+    }
+    h3{
+        font-family: $Montserrat;
+        font-weight: 400;
+        color: $rojo;
+        text-align: center;
+        font-size: 1.6em;
+        line-height:20px;
+    }
+    
+    .gris{
+        background-color: $gris10;
+    }
+    h4{
+        font-family: $Montserrat;
+        font-weight: 500;
+        color: $negro;
+        
+        font-size: 1.4em;
+        line-height:26px;
+    }
+    
+    #item{
+        background-color: $rojo;
+        img{
+            height: 80px;
+            display: flex;
+            margin-bottom: 24px;
+            
+        }
+        h4{
+            font-family: $Montserrat;
+            font-weight: 500;
+            color: $blanco;
+            text-align: center;
+            font-size: 1.4em;
+            line-height:20px;
+        }
+        p{
+            margin-top: 20px;
+            font-family: $Montserrat;
+            font-weight: 500;
+            color: $blanco;
+            text-align: center;
+        }
+    }
+    #separte{
+        background-color: $gris10;
+        text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# CTA
+--------------------------------------------------------------*/
+
+#pedidosya{
+    background-color: $rojo;
+    padding: 60px 0;
+    h3 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    p {
+        color: #fff;
+    }
+    .cta-btn {
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 8px 28px;
+        border-radius: 4px;
+        transition: 0.5s;
+        margin-top: 10px;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    .cta-btn:hover {
+        background: #ffc451;
+        border-color: #ffc451;
+        color: #151515;
+    }
+}
+
 
 
 /*--------------------------------------------------------------
-# 02 # SECTION /// NOSOTROS
+# SERVICES
 --------------------------------------------------------------*/
+#productos{
+    
+        h2{
+            font-family: $Montserrat;
+            font-weight: 800;
+            color: $rojo;
+            text-align: center;
+            font-size: 2.6em; 
+        }
+        h3{
+            font-family: $Montserrat;
+            font-weight: 400;
+            color: $rojo;
+            text-align: center;
+            font-size: 1.6em;
+            line-height:20px;
+        }
+        h4{
+            font-family: $Montserrat;
+            font-weight: 700;
+            color: $negro;        
+            font-size: 1.4em;
+            line-height:26px;
+        }
+        p{
+            margin-top: 20px;
+            font-family: $Montserrat;
+            font-weight: 500;
+            color: $negro;        
+        }     
+}
 
 /*--------------------------------------------------------------
-# 03 # SECTION /// SE PARTE
+# PROMO
 --------------------------------------------------------------*/
+#promociones{
+    background-color: $rojo;
+    padding-bottom: 60px;
+    h2{
+        font-family: $Montserrat;
+        font-weight: 800;
+        color: $blanco;
+        text-align: center;
+        font-size: 2.6em; 
+    }
+    h3{
+        font-family: $Montserrat;
+        font-weight: 400;
+        color: $blanco;
+        text-align: center;
+        font-size: 1.6em;
+        line-height:20px;
+    }
+    h4{
+        font-family: $Montserrat;
+        font-weight: 700;
+        color: $negro;        
+        font-size: 1.4em;
+        line-height:26px;
+    }
+    p{
+        margin-top: 20px;
+        font-family: $Montserrat;
+        font-weight: 500;
+        color: $negro;        
+    }  
+    .promo{       
+        img{
+            width: 300px;
+        }
+        
+    }
+}
 
 /*--------------------------------------------------------------
-# 04 # SECTION /// SUCURSALES
+# GALERIA
 --------------------------------------------------------------*/
+
+#portfolio{
+    h2{
+        font-family: $Montserrat;
+        font-weight: 800;
+        color: $rojo;
+        text-align: center;
+        font-size: 2.6em; 
+    }
+    h3{
+        font-family: $Montserrat;
+        font-weight: 400;
+        color: $rojo;
+        text-align: center;
+        font-size: 1.6em;
+        line-height:20px;
+    }
+
+}
 
 /*--------------------------------------------------------------
-# 05 # SECTION /// PRODUCTO
+# SUCURSALES
 --------------------------------------------------------------*/
+#sucursales{
+
+    .btn-sm{
+        height: 22px;
+        font-size: 10px;
+    }
+    
+    h2{
+        font-family: $Montserrat;
+        font-weight: 800;        
+        color: $rojo;
+        text-align: center;
+        font-size: 2.6em; 
+    }
+    h3{
+        font-family: $Montserrat;
+        font-weight: 400;
+        color: $rojo;
+        text-align: center;
+        font-size: 1.6em;
+        line-height:20px;
+    }
+    h4{
+        font-family: $Montserrat;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $rojo;        
+        font-size: 1.4em;
+        line-height:26px;
+    }
+    h5{
+        font-family: $Montserrat;
+        margin-top: 14px;
+        font-weight: 500;
+        color: $negro;        
+        font-size: 1.4em;
+        line-height:26px;
+    }
+
+    p{
+        font-family: $Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        color: $negro;        
+    }
+    .card{        
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #ebebeb;
+        .maps{
+            width: 100%;
+        }   
+    }
+}
 
 /*--------------------------------------------------------------
-# 06 # SECTION /// CONTACTO
+# Portfolio
 --------------------------------------------------------------*/
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 15px 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+.portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(21, 21, 21, 0.6);
+}
+
+.portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(21, 21, 21, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+
+.portfolio .portfolio-wrap img {
+    transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-wrap:hover::before {
+    opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover img {
+    transform: scale(1.2);
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+}
+
+
+
 
 /*--------------------------------------------------------------
-# 07 FOOTER
+# FOOTER
 --------------------------------------------------------------*/
-
-
+#footer{
+    background: black;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+    .footer-top {
+        background: #151515;
+        border-bottom: 1px solid #222222;
+        padding: 60px 0 30px 0;
+        .footer-info {
+            margin-bottom: 30px;
+            h3 {
+                font-size: 28px;
+                margin: 0 0 20px 0;
+                padding: 2px 0 2px 0;
+                line-height: 1;
+                font-weight: 700;
+                text-transform: uppercase;
+                
+            }
+            img{
+                width: 80px;
+            }
+            span {
+                color: #ffc451;
+            }
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 0;
+                font-family: "Raleway", sans-serif;
+                color: #fff;
+            }
+        }
+        .social-links {
+            a {
+                font-size: 18px;
+                display: inline-block;
+                background: #292929;
+                color: #fff;
+                line-height: 1;
+                padding: 8px 0;
+                margin-right: 4px;
+                border-radius: 4px;
+                text-align: center;
+                width: 36px;
+                height: 36px;
+                transition: 0.3s;
+            }
+            a:hover {
+                background: $rojo;
+                color: $blanco;
+                text-decoration: none;
+            }
+            img{
+                width: 14px;
+                margin-bottom: 3px;
+            }
+        }
+        h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: $rojo;
+            position: relative;
+            padding-bottom: 12px;
+        }
+        .footer-links {
+            margin-bottom: 30px;
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                i {
+                    padding-right: 2px;
+                    color: $rojo;
+                    font-size: 18px;
+                    line-height: 1;
+                }
+                li {
+                    padding: 10px 0;
+                    display: flex;
+                    align-items: center;
+                }
+                li:first-child {
+                    padding-top: 0;
+                }
+                a {
+                    color: #fff;
+                    transition: 0.3s;
+                    display: inline-block;
+                    line-height: 1;
+                }
+                a:hover {
+                    color: $rojo;
+                }
+            }
+        }
+        .footer-newsletter form {
+            margin-top: 30px;
+            background: #fff;
+            padding: 6px 10px;
+            position: relative;
+            border-radius: 4px;
+            input[type=email] {
+                border: 0;
+                padding: 4px;
+                width: calc(100% - 110px);
+            }
+            input[type=submit] {
+                position: absolute;
+                top: 0;
+                right: -2px;
+                bottom: 0;
+                border: 0;
+                background: none;
+                font-size: 16px;
+                padding: 0 20px;
+                background: $rojo;
+                color:$blanco;
+                transition: 0.3s;
+                border-radius: 0 4px 4px 0;
+            }
+            input[type=submit]:hover {
+                background: #ffcd6b;
+            }
+        }
+        
+    }
+    .copyright {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .credits {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 13px;
+        color: #fff;
+    }    
+}

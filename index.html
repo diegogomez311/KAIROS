@@ -3,21 +3,540 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    
-    <link rel="stylesheet" href="/css/estilos.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 
+    <meta name="description" content="Una antigua tradición en manos de innovadores expertos con más de 13 años de trayectoria en Bahía Blanca">
+    <meta name="keywords" content=""> 
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <link href="media/icon.png" rel="icon">
-    
-    <title>KAIROS - INICIO</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="css/glightbox.css" rel="stylesheet">   
+
+    <link href="media/icon.png" rel="icon">    
+    <title>Kairos | Panaderia & Confitería</title>
 </head>
+
 <body>
- 
+    <header>
+            <div class="container-fluid">
+                <div class="container">
+                    <nav class="navbar fixed-top navbar-expand-lg header-scroleed navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="media/logo.svg" alt="" width="85">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#nosotros" >Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#franquicias">Se Parde de Kairos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#productos">Productos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#sucursales">Sucursales</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#promociones">Promociones</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#portfolio">Galeria</a>
+                                    </li>
+                                </ul>                        
+                            </div>
+                            <div class="social-links mt-3">
+                                <a href="https://twitter.com/kairos_pyc" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                                <a href="https://www.facebook.com/Kairos-PyC-1422114614723076" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                                <a href="https://www.instagram.com/kairospyc/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a> 
+                                <a href="https://www.pedidosya.com.ar/restaurantes/bahia-blanca/panaderia-y-confiteria-kairos---castelli-menu" class="instagram" target="_blank"><img src="media/svg/py.svg" alt=""></a>                       
+                            </div>                    
+                        </div>
+                    </nav>
+
+                </div>               
+            </div> 
+        </div>                
+    </header>
+    <section id="slide">          
+        <div class="container-fluid px-0">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="media/slide/slide1.jpg" class="d-block w-100" alt="Slider 01">                   
+                    </div>
+                    <div class="carousel-item">
+                    <img src="media/slide/slide2.jpg" class="d-block w-100" alt="Slider 02">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="media/slide/slide3.jpg" class="d-block w-100" alt="Slider 03">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="container">        
+        <div class="separador"></div>               
+        <div class="nosotros pb-5">                          
+            <div class="row">
+                
+                <div class="section-title pb-5">
+                    <h2>Sobre Nosotros</h2>
+                    <h3>La Mejor Variedad de Bahía Blanca</h3>                               
+                </div>
+                
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img src="media/nosotros.jpg" class="img-fluid" alt="Nosotros">
+                </div>
+
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                    <h4>Una antigua tradición en manos de innovadores expertos</h4>
+                    <p>Kairos es una cadena de pastelerías que consta de 6 sucursales y más de 12 Franquicias y reventas, con más de 13 años de trayectoria en los que se ha posicionado en la ciudad de Bahía Blanca de manera exitosa, a través de procesos productivos de los cuales derivan productos innovadores y de excelente calidad.
+                    </p>
+                    <ul>
+                        <li><i class="ri-check-double-line"></i> 6 sucursales y más de 12 Franquicias y reventas.</li>
+                        <li><i class="ri-check-double-line"></i> 13 años de trayectoria.</li>
+                        <li><i class="ri-check-double-line"></i> Productos innovadores y de excelente calidad</li>
+                    </ul>
+                    <p>Contamos con horneado en todos nuestros PV.</p>
+                    <h4>Una nueva experiencia para tus sentidos</h4>
+                    <p>Algo que nos pone como líderes en el sector , además de la calidad y la gran variedad de productos, es la innovación permanente a través de nuestros pasteleros y panaderos artesanos/artistas.</p>
+                </div>
+            </div>                 
+        </div>
+    </section>
+
+    <section id="franquicias">
+        <div class="container-fluid gris pb-5">
+            <div class="separador"></div>
+            <div class="container franquicias">
+                <div class="section-title mb-5">
+                    <h2>Bienvenidos a Franquicias Kairos</h2>
+                    <h3>Te invitamos a unirte a nuestras franquicias</h3>                
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="media/franquicia.jpg" class="w-100" alt="Franquicias">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h4>Animate a sumarte a nuestra red de franquicias Kairos.</h4>
+                        <p>Con un alto rendimiento y recupero de la inversión.</p>
+                        <hr>
+                        <h4>Inversión inicial: $3.800.000 por local de 60/100 mts2</h4>
+                        <hr>
+                        <p>La franquicia Incluye:</p>
+                            <ul>
+                                <li>
+                                    Amoblamiento, cartelería e imagen, accesorios.
+                                </li>
+                                <li>
+                                    Canon franquicia con respaldo de más de 13 años de trayectoria y funcionalidad probada.
+                                </li>
+                                <li>
+                                    Capacitación inicial y constante para empleados y gerentes.
+                                </li>
+                                <li>
+                                        Recupero de inversión: 12 a 18 meses aprox.
+                                </li>
+                                <li>
+                                    Duración del contrato: 4 años
+                                </li>
+                                <li>
+                                    Primer y segundo canon de renovación $300.000,a partir del tercer canon ajustable.
+                                </li>
+                            </ul>
+                                <br>
+                                <br>                    
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h4>Participación del Franquiciado o Postulante.</h4>
+                        <p>Requerimos que el franquiciado entienda la importancia de gestionar el punto de venta  haciendo un constante seguimiento y monitoreo para asegurar la eficacia del mismo, ajustándose a los estándares propuestos por la empresa.
+                        Ser profesionales en la relación ajustándose a los constantes cambios que el mercado demande.</p>
+                        <button type="button" class="btn btn-danger">Ver requisitos y obligaciones </button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div id="item" class="container-fluid pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-3">
+                        <img class="mx-auto" src="media/svg/amoblamiento.svg" alt="Amoblamiento">
+                        <h4>Amoblamiento</h4>
+                        <p>
+                            Te entregamos el local con el amoblamiento, cartelería, imagen y accesorios
+                        </p>
+
+                    </div>
+                    <div class="col-12 col-md-4 mt-3">                      
+                            <img class="mx-auto" src="media/svg/canon.svg" alt="Canon">                     
+                        <h4>Canon franquicia </h4>
+                        <p>Canon franquicia con respaldo de más de 13 años de trayectoria y funcionalidad probada.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-3">
+                        <img class="mx-auto" src="media/svg/capacitacion.svg" alt="Capacitación">
+                        <h4>Capacitación</h4>
+                        <p>Nos encargamos de la capacitación inicial y constante para empleados y gerentes.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-3">
+                        <img class="mx-auto" src="media/svg/inversion.svg" alt="Recupero">
+                        <h4>Recupero de inversión: </h4>
+                        <p> El período de recuperación de la inversión es aproximadamente de 12 a 18 meses.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-3">
+                        <img class="mx-auto" src="media/svg/maps.svg" alt="Ubicación">
+                        <h4>Ubicación Estratégica</h4>
+                        <p>Elegimos juntos la mejor zona para que tu local de Kairos esté siempre a la vista de los clientes.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-3">
+                        <img class="mx-auto" src="media/svg/contrato.svg" alt="Contrato">
+                        <h4>Contratación por 4 años</h4>
+                        <p>
+                            Primer y segundo canon de renovación $300.000, a partir del tercer canon ajustable.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="separte" class="container-fluid">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <h2>SÉ PARTE DE <br> FRANQUICIAS KAIROS</h2>
+                </div>
+                <button type="button" class="btn btn-danger mt-3">Ver requisitos y obligaciones </button>
+                <p class="mt-3">Somos titulares de un sistema probado.
+                    Estamos para brindar asistencia técnica y comercial. <br>                        
+                    Requisitos y obligaciones a cumplir por parte del franquiciado.
+                </p>
+            </div>
+    </section>
+
+    <section id="productos" class="productos">
+        <div class="separador"></div>
+        <div class="container" data-aos="fade-up">
+            <div class="section-title mb-5">
+                <h2>Productos</h2>
+                <h3>La Mejor Variedad de Bahía Blanca</h3>                
+            </div>
+            <div class="row">
+
+                <div class="col-12 col-md-4">
+                    <div>
+                        <img src="media/productos/confiteria.jpg" alt="Confitería">
+                    </div>
+                    <h4>Confitería</h4>
+
+                </div>
+                <div class="col-12 col-md-4">                    
+                        <img src="media/productos/salados.jpg" alt="Especialides">                    
+                        <h4>Especialidades saladas</h4> 
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="media/productos/salados.jpg" alt="Pastelería">
+                    <h4>Pastelería</h4> 
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="media/productos/salados.jpg" alt="Panificados">
+                    <h4>Panificados</h4>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="media/productos/salados.jpg" alt="Tartas">
+                    <h4>Tartas</h4> 
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="media/productos/salados.jpg" alt="Porciones">
+                    <h4>Porciones</h4>  
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="media/productos/salados.jpg" alt="Confitería">
+                    <h4>confitería</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pedidosya" class="cta">
+        <div class="container">
+            <div class="text-center">
+                <h3>Pedidos Ya-</h3>
+                <p>Con Hambre y Nada te Copa? Acá tu Comida Sabrosa, Hoy Puede Tener otro Gusto. Kairos, Te Llena el Corazón.</p>
+                <a class="cta-btn" href="#">Realizar Pedido</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sucursales" class="container-fluid mb-5">
+        <div class="separador"></div>
+        <div class="container">
+            <div class="section-title">
+                <h2>Sucursales</h2>
+                <h3>Una sucursal cerca tuyo simpre...</h3>
+            </div>
+            <div class="row mt-5 text-center">               
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Castelli 3099 <button type="button" class="btn btn-danger btn-sm">Sucursal</button></h4>
+                        <iframe class="maps" title="Castelli" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.940957666053!2d-62.30610098468473!3d-38.6962004796022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb0b7ce03ed7%3A0xd6b12d7f7083021c!2sCastelli%203099%2C%20B8003%20APJ%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635116966528!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                    
+                        <h5>0291 571-6120</h5>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                    </div>                    
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Sixto Laspiur 1654 <button type="button" class="btn btn-danger btn-sm">Franquicia</button></h4>
+                        <iframe class="maps" title="Sixto Laspiur" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.211805993952!2d-62.29790988468431!3d-38.712945879599545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb631d5a023f%3A0x710369ce451aab73!2sDr.%20Sixto%20Laspiur%201654%2C%20B8003BJF%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635117160922!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h5>0291 571-6120</h5>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                    </div>                    
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Chancay 1895</h4>
+                        <iframe class="maps" title="Chancay" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.597389488465!2d-62.30052188468396!3d-38.72705157959721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbc8fddba453f%3A0x6c857b3cedb5486a!2sChancay%201895%2C%20B8000%20HBI%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635117239959!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h5>0291 571-6120</h5>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                    </div>
+                    
+                </div>                
+
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Vieytes 1895</h4>
+                        <iframe class="maps" title="Vieytes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.6101739882547!2d-62.2916467846845!3d-38.70379787960096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb68822cad1b%3A0x72a0cc57987b161b!2sVieytes%201895%2C%20B8003AGK%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635117512950!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h5>0291 571-6120</h5>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                    </div>                    
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Don Bosco 1234</h4>
+                        <iframe class="maps" title="Don Bosco" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.8926664897676!2d-62.2965398345011!3d-38.72027318645033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbc9ca07b53b1%3A0xe74e8433bf16daca!2sDon%20Bosco%201234%2C%20B8000%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635118011950!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h5>0291 571-6120</h5>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                        </div>                    
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Zapiola 1403</h4>
+                        <iframe class="maps" title="Zapiola" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.7189288650816!2d-62.27650255014581!3d-38.70130014932622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb5ad019a94d%3A0x87c868db2eff2959!2sZapiola%201403%2C%20B8003%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635118447925!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h5>0291 571-6120</h5>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                        </div>                    
+                </div>
+            
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Washington 325</h4>
+                        <iframe class="maps" title="Washington" title="Castelli" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.479016294026!2d-62.247646484683735!3d-38.729768679596965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda33b64a8d1cb%3A0x74fc51bd5331f398!2sWashington%20325%2C%20B8001%20GZG%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635118557671!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <h5>0291 571-6120</h5>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                        </div>                    
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card w-auto">
+                        <h4>Zelarrayan 2177</h4>
+                        <iframe class="maps" title="Zelarrayan" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.8230122708233!2d-62.29050348468481!3d-38.69890957960172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb6a27e2eb19%3A0x3857414a67c1951c!2sZelarray%C3%A1n%202177%2C%20B8003%20CWO%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635118598683!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <P>0291 571-6120</P>
+                        <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                        </div>                    
+                </div>
+                <div class="col-12 col-md-4">                    
+                        <div class="card w-auto">
+                            <h4>Salta 399</h4>
+                            <iframe class="maps" title="Salta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.428668875931!2d-62.27002936511724!3d-38.70796613316033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb5611c19d5b%3A0x906325b4520c3196!2sSalta%20399%2C%20B8000%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635118714986!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <h5>0291 571-6120</h5>
+                            <p>Lunes a sábados: 08:00 a 20.00 hs. <br> Domingos y feriados: 08:00 a 20.00 hs.</p>
+                        </div>  
+                </div>
+        </div> 
+    </section>
+
+    <section id="promociones" class="promociones">
+        <div class="container">
+            <div class="separador"></div>            
+            <div class="section-title">
+                <h2>Promociones</h2>
+                <h3>Una sucursal cerca tuyo simpre...</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-3 promo">
+                    <img src="media/promo/pomoPostres2.jpg" alt="Promo Postres">
+                </div>
+                <div class="col-12 col-md-3 promo">
+                    <img src="media/promo/promoDonas.jpg" alt="Promo Donas">
+                </div>
+                <div class="col-12 col-md-3 promo">
+                    <img src="media/promo/promoGolosinas.jpg" alt="Promo Golosinas">
+                </div>
+                <div class="col-12 col-md-3 promo">
+                    <img src="media/promo/promoPostres.jpg" alt="Promo Postres">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="separador"></div>
+        <div class="container">    
+            <div class="section-title mb-5">
+                <h2>Galeria</h2>
+                <h3>Una sucursal cerca tuyo simpre...</h3>             
+            </div>    
+            <div class="row portfolio-container" >    
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="media/portfolio/portfolio-1.jpg" class="img-fluid" alt="Galeria 1">  
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="media/portfolio/portfolio-1.jpg" class="img-fluid" alt="Galeria 2">  
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="media/portfolio/portfolio-1.jpg" class="img-fluid" alt="Galeria 3">  
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="media/portfolio/portfolio-1.jpg" class="img-fluid" alt="Galeria 4">  
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="media/portfolio/portfolio-1.jpg" class="img-fluid" alt="Galeria 5">  
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="media/portfolio/portfolio-1.jpg" class="img-fluid" alt="Galeria 6">  
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="media/portfolio/portfolio-1.jpg" class="img-fluid" alt="Galeria 7">  
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <img src="media/logo.svg" alt="Logo">
+                            <br>
+                            <br>
+                            <p>
+                                Panadería y Confitería <br>
+                                Bahía Blanca<br><br>
+                                <strong>Teléfono:</strong> 0291 571-6120 - Castelli<br>
+                                <strong>Email:</strong> panaderiayconfiteriakairos@gmail.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="https://twitter.com/kairos_pyc" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                                <a href="https://www.facebook.com/Kairos-PyC-1422114614723076" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                                <a href="https://www.instagram.com/kairospyc/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>                       
+                                <a href="https://www.pedidosya.com.ar/restaurantes/bahia-blanca/panaderia-y-confiteria-kairos---castelli-menu" class="instagram" target="_blank"><img src="media/svg/py.svg" alt="Pedidos Ya"></a>                       
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Links Utiles</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Productos</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Franquicias</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Locales </a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Contacto</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Panificad1os</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Pastelería</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Confitería</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Tortas</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Sandwichs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Suscribase a nuestro boletín de novedades</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Suscribirse">
+                        </form>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Kairos Panadería y Confitería</span></strong>.
+            </div>
+            <div class="credits">            
+                Designed by Zagga
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/glightbox.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
 </html>
