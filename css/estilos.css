@@ -46,6 +46,13 @@
 -------------------------------------------------------------*/
 #slide {
   margin-top: 70px; }
+  #slide h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #ff0000;
+    text-align: center;
+    font-size: 3em;
+    text-decoration-line: #ebebeb; }
 
 /*--------------------------------------------------------------
 # 02 NOSOTROS
@@ -181,7 +188,7 @@
     color: #151515; }
 
 /*--------------------------------------------------------------
-# SERVICES
+# PRODUCTOS
 --------------------------------------------------------------*/
 #productos h2 {
   font-family: "Montserrat", sans-serif;
@@ -202,6 +209,9 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #000000;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 1.4em;
   line-height: 26px; }
 
@@ -210,6 +220,9 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #000000; }
+
+#productos img {
+  border-radius: 5px; }
 
 /*--------------------------------------------------------------
 # PROMO
