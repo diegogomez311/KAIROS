@@ -71,7 +71,12 @@
 # 02 NOSOTROS
 --------------------------------------------------------------*/
 .nosotros{
-    
+    h1{
+        font-family: $Montserrat;
+        font-weight: 800;
+        color: $rojo;        
+        font-size: 1.6em;
+    }
     h2{
         font-family: $Montserrat;
         font-weight: 800;

@@ -57,6 +57,12 @@
 /*--------------------------------------------------------------
 # 02 NOSOTROS
 --------------------------------------------------------------*/
+.nosotros h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #ff0000;
+  font-size: 1.6em; }
+
 .nosotros h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
