@@ -509,3 +509,30 @@
     text-align: center;
     font-size: 13px;
     color: #fff; }
+
+/*MQUERY*/
+@media all and (max-width: 768px) {
+  .navbar .social-links {
+    display: none; }
+  #nosotros {
+    margin-top: 10px; }
+    #nosotros .separador {
+      display: none; }
+    #nosotros .section-title {
+      padding-top: 10px; }
+      #nosotros .section-title h3 {
+        line-height: 1.3; }
+  #franquicias .separador {
+    display: none; }
+  #franquicias .franquicias {
+    margin-top: 20px; }
+  #franquicias img {
+    margin-bottom: 10px; }
+  #franquicias .btn {
+    text-align: center; }
+  #productos {
+    text-align: center; }
+  #promociones {
+    text-align: center; }
+    #promociones img {
+      padding-bottom: 16px; } }

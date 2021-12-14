@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\MG\\WEB MG"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WEB FINAL"
+	}
+}
